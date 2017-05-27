@@ -1,2 +1,3 @@
 # Bomberman
-bomberman layout for pygame
+#bomberman layout for a
+pygame application
