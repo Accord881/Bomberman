@@ -1,0 +1,21 @@
+import pygame
+
+def SplashCan():
+
+    pygame.display.init()
+    pygame.display.set_mode((600,480))
+    
+
+    while True:
+        screen = pygame.display.fill((139,34)
+        pygame.display.update()
+
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                return
+            elif event.type == KEYDOWN:
+                if event.key == K_ESCAPE:
+                    return
+
+SplashCan()
+pygame.init()
